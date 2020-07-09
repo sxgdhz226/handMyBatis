@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+    <database>
+        <property name="driverClassName">com.mysql.jdbc.Driver</property>
+        <property name="url">jdbc:mysql://127.0.0.1:3306/smart_park4.0?useUnicode=true&amp;characterEncoding=UTF-8&amp;zeroDateTimeBehavior=convertToNull&amp;useSSL=true&amp;allowMultiQueries=true&amp;serverTimezone=Asia/Shanghai</property>
+        <property name="username">smartpart</property>
+        <property name="password">smartpart</property>
+    </database>

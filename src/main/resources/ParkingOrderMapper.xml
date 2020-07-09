@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.sxx.mapper.ParkOrderNewMapper" >
+
+  	<select id="selectOrder" resultType="com.sxx.model.ParkOrderNew" parameterType="string">
+		SELECT * FROM park_order_new WHERE id = ?
+  	</select>
+
+
+
+
+</mapper>
